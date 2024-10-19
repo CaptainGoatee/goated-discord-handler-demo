@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "goated-discord-handler": "^0.1.42",
+    "term-logger": "^1.3.1",
+    "winston": "^3.15.0"
+  },
+  "name": "discordhandlerdemo",
+  "version": "1.0.0",
+  "description": "This is a demo of how DiscordHandler is used.",
+  "main": "index.js",
+  "scripts": {
+    "test": "/ping"
+  },
+  "keywords": [
+    "Discord",
+    "Handler",
+    "discord-handler",
+    "djs-commander"
+  ],
+  "author": "CaptainGoatee",
+  "license": "ISC"
+}
