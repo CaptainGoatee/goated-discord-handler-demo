@@ -11,8 +11,7 @@ const client = new Client({
 
 new DiscordHandler({
   client, // Discord.js client object
-  token:
-    "MTIyMjYzNTEzMjEyMTM4NzAxOA.GZB5-U.mHlIWiDebjzYneFvqDaYaS5bn8Z0HPeHllIH6o", // Your bot token
+  token: "token-here",
   commandsPath: path.join(__dirname, "commands"), // The commands folder
   buttonsPath: path.join(__dirname, "buttons"), // The commands folder
   eventsPath: path.join(__dirname, "events"), // The events folder
