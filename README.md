@@ -1,6 +1,6 @@
 # DiscordHandler: A Library for Discord.js Projects
 
-## Credit to NotUnderCtrl
+### Rewritted by `GoatedDevelopment` | Credit to `NotUnderCtrl`
 
 DiscordHandler is an easy-to-use JavaScript library that simplifies the process of handling commands, events, and validations in your Discord.js projects.
 
