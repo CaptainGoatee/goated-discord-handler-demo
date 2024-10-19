@@ -1,4 +1,4 @@
-const { Client, IntentsBitField, interaction } = require("discord.js");
+const { Client, IntentsBitField } = require("discord.js");
 const { DiscordHandler } = require("goated-discord-handler");
 const { Logger } = require("term-logger"); // Fancy Colourful Console Logger
 const path = require("path");
