@@ -11,11 +11,9 @@ const BUTTON_ID = "hello";
 const BUTTON_LABEL = "Ping Again";
 
 module.exports = {
-  data: new SlashCommandBuilder()
-    .setName("ping")
-    .setDescription("Pong!"),
-
-  run: async ({ interaction, client }) => {
+  data: new SlashCommandBuilder().setName("ping").setDescription("Pong!"),
+  devOnly: false,
+  run: async ({ interaction, client, handler }) => {
     try {
       // Create a button
       const button = new ButtonBuilder()
