@@ -1,7 +1,7 @@
 /** @format */
 
 module.exports = {
-  customID: "hello",
+  customID: "reply",
   run: ({ interaction, client, handler }) => {
     interaction.reply(`Pong! ${client.ws.ping}ms`);
   },
