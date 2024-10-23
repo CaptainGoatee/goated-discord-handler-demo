@@ -16,4 +16,8 @@ new DiscordHandler({
   validationsPath: path.join(__dirname, "validations"), // Only works if commandsPath is provided
   logger: Logger, // Changes the console output to match the specified logger configuration (if not provided logging will go through console.log)
   logInteractions: true, // If true, will log interactions made with the bot in your console.
+  refreshCommands: true, // If true, you can refresh commands from discord with /app refresh_commands
+  toggleCommands: true, // If true, you can enable/disable commands with /app enable <command> and /app disable <command>.
+  
+  // Note, toggled commands reset if the bot crashes / restarts or if you use refreshCommands have haven't used the {deleted} variable in the command file.
 });
